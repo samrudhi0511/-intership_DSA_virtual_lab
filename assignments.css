@@ -1,0 +1,17 @@
+.card {
+  margin: 20px auto; /* Center the cards horizontally and add space around them */
+  max-width: 300px; /* Set maximum width for cards */
+  display: block; /* Ensure cards stack vertically */
+}
+
+.card-body a {
+  margin-top: 10px; /* Adjust top margin for links within card body */
+}
+
+@media(max-width: 700px) {
+  .card {
+    margin: 20px auto; /* Center the cards horizontally and add space around them */
+    max-width: 90%; /* Set maximum width for cards to fill most of the screen */
+  }
+}
+

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutpage {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.aboutpage p {
+    margin: 10px;
+}
+
+.cards1 {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 1px;
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 15rem; /* Adjust width for smaller screens */
+    }
+}
